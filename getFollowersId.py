@@ -6,10 +6,10 @@ from pymongo import MongoClient
 client = MongoClient()
 db = client.twitter
 
-consumer_key = '1Jb78iIqdUujFWyXpEXNvPlqi'
-consumer_secret = 'VWQNaKEnW9AiW4Bl7spxDZC8pT27IdIh3sK3MRlddxFSKWLEKM'
-access_token = '26650648-w9GU1J0Q8TLbnxMqSPkF8rkIKwXtRlvvncasI79tM'
-access_token_secret = 'uihymHbNDjgkVrUU80PzrZ73vhvfHsPXm5jaGZfwfwcR9'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 try:
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)

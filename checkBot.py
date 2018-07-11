@@ -15,12 +15,12 @@ ids = []
 for p in pages:
     ids += list(p["ids"])
 
-mashape_key = "4DIsgsa2cFmshln8tmCfVHtKAZwFp1wQS8VjsnxEpy45JnTxvz"
+mashape_key = ""
 twitter_app_auth = {
-    'consumer_key': 'VUd3ocqPL98hWHBKrZfiqn9Nb',
-    'consumer_secret': 'aWKOW8rVjS9yqrp2DJLDxhWmkUaxF5UgmGwWwHuSJzv6iXN6Np',
-    'access_token': '26650648-rNmi8yL4fDXZCS3mCexYgHRNyTYBeEm5pNdn3NLIt',
-    'access_token_secret': 'BJLx3pOq4PzS4xdJOvXZhBXic26ZsfLXeOL6nCZVqP9lu',
+    'consumer_key': '',
+    'consumer_secret': '',
+    'access_token': '',
+    'access_token_secret': '',
   }
 
 bom = botometer.Botometer(wait_on_ratelimit=True,
